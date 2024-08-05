@@ -265,6 +265,8 @@ h1 {
 
 	@media (max-width:1024px) {
 		flex-direction: column;
+		margin-top: 8%;
+		display: flex;
 	}
 
 	.hero-blue {
@@ -361,6 +363,9 @@ h1 {
 	position: relative;
 	margin-left: 10%;
 	margin-right: 10%;
+	@media (max-width:1024px) {
+		margin-top: -40%;
+	}
 	&::before {
 		content: '';
 		background: #3F51B5;
