@@ -265,8 +265,7 @@ h1 {
 
 	@media (max-width:1024px) {
 		flex-direction: column;
-		margin-top: 8%;
-		display: flex;
+		margin-top: 20%;
 	}
 
 	.hero-blue {
@@ -359,13 +358,10 @@ h1 {
 }
 
 .timeline {
-
+	
 	position: relative;
 	margin-left: 10%;
 	margin-right: 10%;
-	@media (max-width:1024px) {
-		margin-top: -40%;
-	}
 	&::before {
 		content: '';
 		background: #3F51B5;
@@ -375,6 +371,14 @@ h1 {
 		left: 50%;
 		transform: translateX(-50%);
 		top: 18%;
+	}
+	@media (max-width: 1024px) {
+		flex-direction: column;
+		margin-top: 10%;
+
+		&::before {
+			top: 10%;
+		}
 	}
 }
 
